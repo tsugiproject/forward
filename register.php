@@ -2,7 +2,7 @@
 
 $REGISTER_LTI2 = array(
 "name" => "Forward",
-"FontAwesome" => "fa-trophy",
+"FontAwesome" => "fa-fast-forward",
 "short_name" => "Forward",
 "description" => "Send the launch to a Django app.
 ",
@@ -15,7 +15,7 @@ $REGISTER_LTI2 = array(
     "analytics" => array(
         "internal"
     ),
-    "source_url" => "https://github.com/tsugicontrib/forward",
+    "source_url" => "https://github.com/tsugiproject/forward",
     // For now Tsugi tools delegate this to /lti/store
     "placements" => array(
         /*
