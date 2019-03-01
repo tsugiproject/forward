@@ -4,8 +4,8 @@ $REGISTER_LTI2 = array(
 "name" => "Forward",
 "FontAwesome" => "fa-fast-forward",
 "short_name" => "Forward",
-"description" => "Send the launch to a Django app.
-",
+"description" => "Forward the post-launch data to a Django app using a JWT.  See also the 'djtest'
+repository.",
     "messages" => array("launch", "launch_grade"),
     "privacy_level" => "anonymous",  // anonymous, name_only, public
     "license" => "Apache",
@@ -15,6 +15,7 @@ $REGISTER_LTI2 = array(
     "analytics" => array(
         "internal"
     ),
+    "tool_phase" => "emerging",
     "source_url" => "https://github.com/tsugiproject/forward",
     // For now Tsugi tools delegate this to /lti/store
     "placements" => array(
